@@ -248,7 +248,7 @@
         <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
             <i class="fa-solid fa-award text-teal-400"></i> Recognition & Awards
         </h2>
-        <div class="grid md:grid-cols-4 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="p-6 bg-slate-900/50 rounded-xl border border-teal-500/30 hover:border-teal-500/60 transition">
                 <i class="fa-solid fa-robot text-teal-400 text-xl mb-3"></i>
                 <div class="flex items-center justify-between">
