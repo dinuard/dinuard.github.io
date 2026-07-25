@@ -1,1 +1,283 @@
-# dinuard.github.io
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Arumugam | Clinical Data & Tech Specialist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-teal-500 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent">
+                Dinesh Arumugam
+            </a>
+            <div class="flex items-center gap-6 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-teal-400 transition-colors">About</a>
+                <a href="#impact" class="hover:text-teal-400 transition-colors">Impact</a>
+                <a href="#experience" class="hover:text-teal-400 transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-teal-400 transition-colors">Tech Stack</a>
+                <a href="https://www.linkedin.com/in/dineshard" target="_blank" class="px-4 py-2 bg-teal-500/10 border border-teal-500/30 text-teal-400 rounded-full hover:bg-teal-500 hover:text-slate-950 transition-all duration-300 font-semibold">
+                    LinkedIn <i class="fa-brands fa-linkedin ml-1 text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-32 pb-20 px-6 max-w-6xl mx-auto relative">
+        <div class="absolute -top-10 -left-10 w-72 h-72 bg-teal-500/10 rounded-full blur-3xl -z-10"></div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-teal-400 text-xs font-semibold uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+            Clinical Data & Tech Specialist
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+            Bridging Clinical Operations with <br class="hidden md:inline"/>
+            <span class="bg-gradient-to-r from-teal-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">
+                Data Science & Innovation
+            </span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-3xl mb-8 leading-relaxed">
+            6+ years of expertise in managing CTMS systems, Veeva Vault integrations, data quality governance, and scalable automation. Transforming trial operations through machine learning and analytics.
+        </p>
+        <div class="flex flex-wrap gap-4">
+            <a href="mailto:dinesharumugam52@gmail.com" class="px-6 py-3 bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold rounded-lg transition-all duration-300 flex items-center gap-2 shadow-lg shadow-teal-500/20">
+                <i class="fa-regular fa-envelope"></i> Get in Touch
+            </a>
+            <a href="https://github.com/dinuard" target="_blank" class="px-6 py-3 bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 font-medium rounded-lg transition-all flex items-center gap-2">
+                <i class="fa-brands fa-github"></i> GitHub Profile
+            </a>
+        </div>
+    </section>
+
+    <!-- Key Metrics & Impact Cards -->
+    <section id="impact" class="py-12 bg-slate-900/50 border-y border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-xs font-bold uppercase tracking-widest text-teal-400 mb-8">Measurable Outcomes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-slate-900/80 p-6 rounded-xl border border-slate-800">
+                    <div class="text-3xl font-extrabold text-teal-400 mb-1">60%</div>
+                    <div class="text-sm font-semibold text-slate-200">Dependency Reduction</div>
+                    <p class="text-xs text-slate-400 mt-2">Built FEED knowledge system centralizing CTMS FAQs & escalation logic.</p>
+                </div>
+                <div class="bg-slate-900/80 p-6 rounded-xl border border-slate-800">
+                    <div class="text-3xl font-extrabold text-teal-400 mb-1">98%</div>
+                    <div class="text-sm font-semibold text-slate-200">Study Setup SLA</div>
+                    <p class="text-xs text-slate-400 mt-2">Achieved through interactive centralized team KPI tracking dashboards.</p>
+                </div>
+                <div class="bg-slate-900/80 p-6 rounded-xl border border-slate-800">
+                    <div class="text-3xl font-extrabold text-teal-400 mb-1">200+</div>
+                    <div class="text-sm font-semibold text-slate-200">Global Leaders Trained</div>
+                    <p class="text-xs text-slate-400 mt-2">Delivered targeted CTMS & data quality governance sessions globally.</p>
+                </div>
+                <div class="bg-slate-900/80 p-6 rounded-xl border border-slate-800">
+                    <div class="text-3xl font-extrabold text-teal-400 mb-1">96%</div>
+                    <div class="text-sm font-semibold text-slate-200">Model Accuracy</div>
+                    <p class="text-xs text-slate-400 mt-2">Breast Cancer Risk Assessment classification model (Random Forest).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Case Study / Highlight Project -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="bg-gradient-to-br from-slate-900 to-slate-900/80 p-8 rounded-2xl border border-slate-800 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-8 opacity-10 text-teal-400">
+                <i class="fa-solid fa-brain text-9xl"></i>
+            </div>
+            <div class="relative z-10">
+                <span class="px-3 py-1 bg-teal-500/10 text-teal-400 text-xs font-semibold rounded-full border border-teal-500/20">Featured ML Case Study</span>
+                <h3 class="text-2xl font-bold text-white mt-4 mb-2">Enhanced Breast Cancer Risk Assessment Model</h3>
+                <p class="text-slate-400 text-sm max-w-2xl mb-6">Built a high-precision classification model utilizing the Wisconsin Diagnostic Dataset (UCI Machine Learning Repository) to identify critical diagnostic features.</p>
+                
+                <div class="grid md:grid-cols-3 gap-4 border-t border-slate-800/80 pt-6">
+                    <div>
+                        <span class="text-xs text-slate-500 uppercase font-bold tracking-wider">Problem</span>
+                        <p class="text-sm text-slate-300 mt-1">Need for early, data-driven feature extraction to assist clinical risk assessment.</p>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 uppercase font-bold tracking-wider">Solution</span>
+                        <p class="text-sm text-slate-300 mt-1">Random Forest classifier with extensive feature analysis (clump thickness, bare nuclei).</p>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 uppercase font-bold tracking-wider">Impact</span>
+                        <p class="text-sm text-teal-400 font-semibold mt-1">96% Model Accuracy achieved with key predictive risk variables identified.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-white mb-10 flex items-center gap-3">
+            <i class="fa-solid fa-briefcase text-teal-400"></i> Work Experience
+        </h2>
+        <div class="space-y-8">
+
+            <!-- Role 1 -->
+            <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-white">Clinical Data Services Senior Analyst</h3>
+                        <p class="text-sm text-teal-400 font-medium">Accenture | Bangalore, India</p>
+                    </div>
+                    <span class="text-xs px-3 py-1 bg-slate-800 text-slate-400 rounded-full w-fit">2024 – Present</span>
+                </div>
+                <ul class="list-disc list-inside text-sm text-slate-300 space-y-2">
+                    <li>CTMS Governance & Integration Lead across global clinical trials and therapeutic areas.</li>
+                    <li>Investigated ServiceNow integration queries and collaborated with middleware teams on data flow ownership.</li>
+                    <li>Partnered with Veeva product teams for system alignment, impact assessments, and QA/Dev validations.</li>
+                    <li>Trained 200+ global study leaders on system features and data quality best practices.</li>
+                    <li>Built the FEED knowledge system (FAQs, resolution workflows) reducing internal team reliance by 60%.</li>
+                </ul>
+            </div>
+
+            <!-- Role 2 -->
+            <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-white">Clinical Data Services Analyst</h3>
+                        <p class="text-sm text-teal-400 font-medium">Accenture | Bangalore, India</p>
+                    </div>
+                    <span class="text-xs px-3 py-1 bg-slate-800 text-slate-400 rounded-full w-fit">2021 – 2024</span>
+                </div>
+                <ul class="list-disc list-inside text-sm text-slate-300 space-y-2">
+                    <li>Served as CTMS Functional Manager for global & local studies overseeing lifecycle data integrity.</li>
+                    <li>Designed visit definitions and subject tracking with IRT, EDC, and Cost teams.</li>
+                    <li>Executed Veeva CTMS testing using JIRA & Proton; aligned protocols with data migration goals.</li>
+                    <li>Developed KPI dashboards and forecast reports, raising internal productivity by 40%.</li>
+                </ul>
+            </div>
+
+            <!-- Role 3 -->
+            <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-white">Clinical Data Services Associate</h3>
+                        <p class="text-sm text-teal-400 font-medium">Accenture | Bangalore, India</p>
+                    </div>
+                    <span class="text-xs px-3 py-1 bg-slate-800 text-slate-400 rounded-full w-fit">2019 – 2021</span>
+                </div>
+                <ul class="list-disc list-inside text-sm text-slate-300 space-y-2">
+                    <li>Maintained end-to-end trial, country, and site-level CTMS data accuracy.</li>
+                    <li>Processed data change requests ensuring strict regulatory readiness.</li>
+                    <li>Acted as SPOC for CTMS reporting and clinical trial team queries.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Technical & Core Competencies -->
+    <section id="skills" class="py-16 bg-slate-900/40 border-t border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-code text-teal-400"></i> Technical & Core Competencies
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Clinical Systems -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-teal-400 mb-4">Clinical Systems</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">Veeva Vault (CTMS, ETMF, SSU)</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">ServiceNow</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">JIRA</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">Proton</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">CONNECT</span>
+                    </div>
+                </div>
+
+                <!-- Automation & Programming -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-teal-400 mb-4">Data & Automation</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">Python (Data Science)</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">SQL</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">Power BI</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">GenAI Essentials</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">Power Automate</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">SharePoint</span>
+                    </div>
+                </div>
+
+                <!-- Core Capabilities -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-teal-400 mb-4">Core Skills</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">Clinical Trials Ops</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">UAT Support</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">Testing (OQ/PQ, Regression)</span>
+                        <span class="px-3 py-1 bg-slate-800 text-xs text-slate-200 rounded-md">ML Model Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Honors -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+            <i class="fa-solid fa-award text-teal-400"></i> Recognition & Awards
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="p-6 bg-slate-900/50 rounded-xl border border-slate-800">
+                <i class="fa-solid fa-star text-amber-400 text-xl mb-3"></i>
+                <h3 class="font-bold text-white text-base">Star of Business Award</h3>
+                <p class="text-xs text-slate-400 mt-2">Developed interactive team KPI excel dashboard, boosting timeline achievement rates to 98%.</p>
+            </div>
+            <div class="p-6 bg-slate-900/50 rounded-xl border border-slate-800">
+                <i class="fa-solid fa-ribbon text-teal-400 text-xl mb-3"></i>
+                <h3 class="font-bold text-white text-base">Platinum Badge Award</h3>
+                <p class="text-xs text-slate-400 mt-2">Awarded for completing intensive 6-month program in leadership, project, and people management.</p>
+            </div>
+            <div class="p-6 bg-slate-900/50 rounded-xl border border-slate-800">
+                <i class="fa-solid fa-key text-indigo-400 text-xl mb-3"></i>
+                <h3 class="font-bold text-white text-base">Linchpin Award</h3>
+                <p class="text-xs text-slate-400 mt-2">Built centralized SharePoint portal providing seamless access to daily reference links, templates, and FAQs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Hub -->
+    <footer class="py-12 border-t border-slate-800 text-center text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <p>© Dinesh Arumugam • Hosted on GitHub Pages</p>
+            <div class="flex gap-6 text-sm">
+                <a href="mailto:dinesharumugam52@gmail.com" class="hover:text-teal-400 transition">Email</a>
+                <a href="https://www.linkedin.com/in/dineshard" target="_blank" class="hover:text-teal-400 transition">LinkedIn</a>
+                <a href="https://github.com/dinuard" target="_blank" class="hover:text-teal-400 transition">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
