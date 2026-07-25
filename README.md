@@ -44,6 +44,7 @@
                 <a href="#impact" class="hover:text-teal-400 transition-colors">Impact</a>
                 <a href="#experience" class="hover:text-teal-400 transition-colors">Experience</a>
                 <a href="#skills" class="hover:text-teal-400 transition-colors">Tech Stack</a>
+                <a href="#academics" class="hover:text-teal-400 transition-colors">Academics</a>
                 <a href="https://www.linkedin.com/in/dineshard" target="_blank" class="px-4 py-2 bg-teal-500/10 border border-teal-500/30 text-teal-400 rounded-full hover:bg-teal-500 hover:text-slate-950 transition-all duration-300 font-semibold">
                     LinkedIn <i class="fa-brands fa-linkedin ml-1 text-xs"></i>
                 </a>
@@ -271,6 +272,78 @@
                 <i class="fa-solid fa-key text-indigo-400 text-xl mb-3"></i>
                 <h3 class="font-bold text-white text-base">Linchpin Award</h3>
                 <p class="text-xs text-slate-400 mt-2">Built centralized SharePoint portal providing seamless access to daily reference links, templates, and FAQs.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Academics & Certifications Section -->
+    <section id="academics" class="py-16 bg-slate-900/30 border-t border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-graduation-cap text-teal-400"></i> Academics & Certifications
+            </h2>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                
+                <!-- Formal Education Card -->
+                <div class="lg:col-span-1 bg-slate-900 p-6 rounded-xl border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 bg-teal-500/10 text-teal-400 text-xs font-semibold rounded-full border border-teal-500/20">Bachelor's Degree</span>
+                            <i class="fa-solid fa-university text-slate-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Bachelor of Science in Biomedical Sciences</h3>
+                        <p class="text-sm text-teal-400 mt-1">Sri Ramachandra Institute of Higher Education and Research</p>
+                        <p class="text-xs text-slate-400 mt-1">Chennai, India</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-slate-400">
+                        Foundational domain expertise bridging life sciences, medical protocols, and technology integration.
+                    </div>
+                </div>
+
+                <!-- Specialized Certifications (Data Science & Clinical) -->
+                <div class="lg:col-span-2 grid md:grid-cols-2 gap-6">
+                    
+                    <!-- Data Science & AI Group -->
+                    <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800">
+                        <div class="flex items-center gap-2 text-teal-400 text-sm font-bold uppercase tracking-wider mb-4">
+                            <i class="fa-solid fa-brain"></i> Data Science & AI
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
+                                <h4 class="font-bold text-white text-sm">Advanced Certification in Data Science & Machine Learning</h4>
+                                <p class="text-xs text-slate-400">LMES Academy, Chennai</p>
+                            </li>
+                            <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
+                                <h4 class="font-bold text-white text-sm">Generative AI Essentials</h4>
+                                <p class="text-xs text-slate-400">LMES Academy, Chennai</p>
+                            </li>
+                            <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
+                                <h4 class="font-bold text-white text-sm">Introduction to Data Analytics & Marketing Analytics</h4>
+                                <p class="text-xs text-slate-400">Meta (via Coursera)</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Clinical Research & Healthcare Group -->
+                    <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800">
+                        <div class="flex items-center gap-2 text-teal-400 text-sm font-bold uppercase tracking-wider mb-4">
+                            <i class="fa-solid fa-notes-medical"></i> Clinical Research & Domain
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
+                                <h4 class="font-bold text-white text-sm">Advanced Program in Clinical Research & Management</h4>
+                                <p class="text-xs text-slate-400">CLINI INDIA Clinical Research Services, Bangalore</p>
+                            </li>
+                            <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
+                                <h4 class="font-bold text-white text-sm">Diploma in Critical Care</h4>
+                                <p class="text-xs text-slate-400">Sri Ramachandra Institute of Higher Education & Research</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </section>
