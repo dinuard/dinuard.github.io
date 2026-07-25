@@ -297,7 +297,7 @@
                         <p class="text-xs text-slate-400 mt-1">Chennai, India</p>
                     </div>
                     <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-slate-400">
-                        Foundational domain expertise bridging life sciences, medical protocols, and technology integration.
+                        Multidisciplinary field leveraging foundational domain expertise to bridge life sciences, medical protocols, and technology integration—transforming complex biological research into practical healthcare solutions.
                     </div>
                 </div>
 
@@ -312,11 +312,11 @@
                         <ul class="space-y-4">
                             <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
                                 <h4 class="font-bold text-white text-sm">Advanced Certification in Data Science & Machine Learning</h4>
-                                <p class="text-xs text-slate-400">LMES Academy, Chennai</p>
+                                <p class="text-xs text-slate-400">LMES Academy, Chennai, India</p>
                             </li>
                             <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
                                 <h4 class="font-bold text-white text-sm">Generative AI Essentials</h4>
-                                <p class="text-xs text-slate-400">LMES Academy, Chennai</p>
+                                <p class="text-xs text-slate-400">LMES Academy, Chennai, India</p>
                             </li>
                             <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
                                 <h4 class="font-bold text-white text-sm">Introduction to Data Analytics & Marketing Analytics</h4>
@@ -333,11 +333,11 @@
                         <ul class="space-y-4">
                             <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
                                 <h4 class="font-bold text-white text-sm">Advanced Program in Clinical Research & Management</h4>
-                                <p class="text-xs text-slate-400">CLINI INDIA Clinical Research Services, Bangalore</p>
+                                <p class="text-xs text-slate-400">CLINI INDIA Clinical Research Services, Bangalore, India</p>
                             </li>
                             <li class="border-b border-slate-800/80 pb-3 last:border-0 last:pb-0">
                                 <h4 class="font-bold text-white text-sm">Diploma in Critical Care</h4>
-                                <p class="text-xs text-slate-400">Sri Ramachandra Institute of Higher Education & Research</p>
+                                <p class="text-xs text-slate-400">Sri Ramachandra Institute of Higher Education & Research, Chennai, India</p>
                             </li>
                         </ul>
                     </div>
