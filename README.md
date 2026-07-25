@@ -289,10 +289,10 @@
                 <div class="lg:col-span-1 bg-slate-900 p-6 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 bg-teal-500/10 text-teal-400 text-xs font-semibold rounded-full border border-teal-500/20">Bachelor's Degree</span>
+                            <span class="px-3 py-1 bg-teal-500/10 text-teal-400 text-xs font-semibold rounded-full border border-teal-500/20">Bachelor's Degree (Hons.)</span>
                             <i class="fa-solid fa-university text-slate-600 text-xl"></i>
                         </div>
-                        <h3 class="text-lg font-bold text-white">Bachelor of Science (Hons.) Biomedical Sciences</h3>
+                        <h3 class="text-lg font-bold text-white">Biomedical Sciences</h3>
                         <p class="text-sm text-teal-400 mt-1">Sri Ramachandra Institute of Higher Education and Research</p>
                         <p class="text-xs text-slate-400 mt-1">Chennai, India</p>
                     </div>
